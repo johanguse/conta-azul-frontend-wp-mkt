@@ -42,6 +42,7 @@ body {
 }
 
 // Utils
-.error-msg {
+.error-msg, .newsletterform .error {
+  margin-top: 5px;
   color: $red;
 }

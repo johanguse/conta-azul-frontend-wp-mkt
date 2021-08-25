@@ -18,8 +18,21 @@
       trickle: false
     });
 
-      $("#newsletterform").submit(function(ev) {
-        ev.preventDefault();
+  // Initialize form validation on the newletter form.
+  $("#newsletterform").validate({
+    rules: {
+      news_name: "required",
+      news_email: "required email",
+    },
+    messages: {
+      news_name: "Como gostaria de ser chamado?",
+        news_email: {
+            required: "Qual é seu e-mail?",
+            email: "Digite um e-mail válido.",
+        }
+    },
+
+    submitHandler: function(form) {
 
         console.log("ini submit");
 
@@ -96,9 +109,11 @@
         })
           return false;
 
-      });
+          console.log('form enviado');
+      }
+    });
 
-	}
+  }
 
 	//Start all functions
 	var init = function() {

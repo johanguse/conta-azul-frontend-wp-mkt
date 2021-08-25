@@ -688,7 +688,7 @@ body.logged-in .navbar.fixed-top{margin-top:32px}
 .title-hero{color:#fff;font-size:2.75rem;font-weight:400}
 .title-section-blue{color:#2687e9;font-size:2.25rem;font-weight:600}
 .title-card-blue{color:#4983bb;font-size:1.375rem;font-weight:500}
-.error-msg{color:#f0530a}
+.error-msg,.newsletterform .error{margin-top:5px;color:#f0530a}
 .t-10{font-size:.625rem !important}
 .t-11{font-size:.6875rem !important}
 .t-12{font-size:.75rem !important}
