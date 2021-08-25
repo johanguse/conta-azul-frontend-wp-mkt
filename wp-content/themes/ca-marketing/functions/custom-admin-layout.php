@@ -68,7 +68,7 @@ add_filter( 'login_headerurl', 'my_login_logo_url' );
 
 // Customize title logo login
 function my_login_logo_url_title() {
-		return 'Protema - Empreendimentos';
+		return 'Conta Azul - Marketing Teste';
 }
 add_filter( 'login_headertitle', 'my_login_logo_url_title' );
 

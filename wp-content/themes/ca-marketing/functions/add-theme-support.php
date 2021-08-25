@@ -156,7 +156,7 @@
 
 	// Customize title logo login
 	function my_login_logo_url_title() {
-	    return 'Protema - Empreendimentos';
+	    return 'Conta Azul - Marketing Teste';
 	}
 	add_filter( 'login_headertitle', 'my_login_logo_url_title' );
 
@@ -218,7 +218,7 @@ function ca_export_newsletter() {
     <script type="text/javascript">
         jQuery(document).ready( function($)
         {
-            $('.tablenav.top .clear, .tablenav.bottom .clear').before('<form action="#" method="POST"><input type="hidden" id="mytheme_export_csv" name="mytheme_export_csv" value="1" /><input class="button button-primary user_export_button" style="margin-top:3px;" type="submit" value="<?php esc_attr_e('Exportar todos para CSV', 'protema');?>" /></form>');
+            $('.tablenav.top .clear, .tablenav.bottom .clear').before('<form action="#" method="POST"><input type="hidden" id="mytheme_export_csv" name="mytheme_export_csv" value="1" /><input class="button button-primary user_export_button" style="margin-top:3px;" type="submit" value="<?php esc_attr_e('Exportar todos para CSV', 'contaazul');?>" /></form>');
         });
     </script>
     <?php
