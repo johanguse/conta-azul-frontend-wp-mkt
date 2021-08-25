@@ -44,4 +44,5 @@ include_function( 'add-svg-upload-support' );
 // include_function( 'remove-default-image-sizes' );
 include_function( 'remove-head-junk' );
 include_function( 'remove-wpversion-nag' );
+include_function( 'ajax-save-data' );
 /* phpcs:enable */
