@@ -24,14 +24,14 @@ $the_query = new WP_Query( $args );
 if( $the_query->have_posts() ):
 ?>
 <section>
-	<div class="container main-title text-center py-5 mt-3">
-		<h2 className="text-primary">
+	<div class="container main-title text-center py-5 mt-5">
+		<h2 class="title-section-blue">
 			Sua empresa precisa de controle financeiro?
 			<br />
 			Centralize tudo em um único sistema
 		</h2>
 	</div>
-	<div class="container py-5">
+	<div class="container py-5 my-5">
 		<div class="row">
 		<?php
 		while( $the_query->have_posts() ) : $the_query->the_post();
@@ -42,10 +42,10 @@ if( $the_query->have_posts() ):
 					<div class="highlight-card__icon mb-2">
 						<img class="highlight-card__icon_svg" src="<?php echo esc_url( $icon_url ); ?>" />
 					</div>
-					<div class="highlight-card__title mb-3">
+					<div class="highlight-card__title title-card-blue mb-3">
 						<?php echo the_field('highlight_title'); ?>
 					</div>
-					<div class="highlight-card__text">
+					<div class="highlight-card__text text-blue-dark t-18">
 						<?php echo the_field('highlight_desc'); ?>
 					</div>
 				</div>

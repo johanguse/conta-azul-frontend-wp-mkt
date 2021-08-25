@@ -9,64 +9,39 @@
 // node_modules/bootstrap/scss/_variables.scss
 
 // Fonts
-$font-family-base: "Roboto", sans-serif;
+$font-family-base: "Lato", sans-serif;
+$font-family-alternate: "Open Sans", sans-serif;
 $enable-responsive-font-sizes: true;
-
-// Colors
-$body-bg: #fff;
-$white: #fff;
-$blue: #2687e9;
-$blueDark: #4983bb;
-$blueDarkBG: #090f25;
 
 // Base colors
 $white: #fff;
 $black: #000;
-
-// Primary colors
-$deep-blue-1: #020242;
-$deep-blue-2: #05052d;
-$deep-blue-3: #00005b;
-
-// Secondary color
 $blue: #2687e9;
 $blue-2: #4983bb;
-$blue-3: #090f25;
-$green: #07dbb4;
-$green-2: #1ba39c;
-$red: #e93f66;
-$turquoise: #35e9d5;
-$turquoise-2: #03cfb9;
-
-// Neutral colors
+$blue-3: #385a7b;
+$blueDark: #090f25;
+$green: #46bb51;
+$green-dark: #449D44;
 $grey-dark: #333;
 $grey-light: #d8d8d8;
-$grey-blue: #ebf2f2;
-$grey-beige: #f4f8e1;
-$grey-blue-dark: #799a9b;
+$red: #f0530a;
+// Colors
+$body-bg: #fff;
 
-// Gradients
-$gradient-deep-blue: linear-gradient(0deg, $deep-blue-2 0%, $deep-blue-1 100%);
-$gradient-green-blue: linear-gradient(90deg, $green 0%, $blue 100%);
-$gradient-grey-blue-white: linear-gradient(0deg, $white 0%, $grey-blue 100%);
-$gradient-grey-beige-white: linear-gradient(0deg, $white 0%, $grey-beige 100%);
-$gradient-turquoise-white: linear-gradient(90deg, $turquoise 0%, $white 100%);
-$gradient-white-white: linear-gradient(90deg, $white 0%, $white 100%);
-$gradient-light-grey: linear-gradient(-180deg, $grey-blue 0%, $white 30%);
 
 // Text colors
-$text-primary: $deep-blue-1;
-$text-secondary: $grey-dark;
+$text-primary: $white;
+$text-secondary: $blueDark;
 $text-white: $white;
 $text-shadow: #117a8b;
 
 // Bachground Color
-$bg-primary: $deep-blue-1;
+$bg-primary: $blueDark;
 
 // Anchor links
-$link-color: $green;
+$link-color: $blue;
 $link-decoration: none;
-$link-hover-color: $deep-blue-1;
+$link-hover-color: $blue-2;
 $link-hover-decoration: none;
 
 // Overrides
@@ -118,17 +93,18 @@ $container-max-widths: (
 $grid-gutter-width: rem(30px);
 
 // Components
-$rounded-pill: 50rem;
+$rounded-pill-button: rem(4px);
+$rounded-pill-input: rem(8px);
 $border-radius-lg: rem(18px);
 
 // Buttons + Forms
-$border-width: 2px;
+$border-width: 0;
 
 // Buttons
-$btn-border-radius: $rounded-pill;
+$btn-border-radius: $rounded-pill-button;
 
-$btn-padding-y: rem(12px);
-$btn-padding-x: rem(24px);
+$btn-padding-y: rem(10px);
+$btn-padding-x: rem(36px);
 $btn-font-size: rem(24px);
 
 $btn-padding-y-sm: rem(8px);
@@ -140,30 +116,27 @@ $btn-padding-x-lg: rem(32px);
 $btn-font-size-lg: rem(28px);
 
 // Forms
-$component-active-bg: $green-2;
+$component-active-bg: $blue;
 
-$input-bg: transparent;
-$input-color: $deep-blue-1;
+$input-bg: $white;
+$input-color: $blue;
 
-$input-border-color: $grey-blue;
+$input-border-color: transparent;
 $input-box-shadow: none;
 
-$input-focus-border-color: $turquoise;
+$input-focus-border-color: $blue-2;
 $input-focus-box-shadow: none;
 
-$custom-control-label-color: $deep-blue-1;
-$custom-control-indicator-focus-border-color: $green-2;
+$custom-control-label-color: $blue-2;
+$custom-control-indicator-focus-border-color: $blue-2;
+
+$input-btn-padding-x: rem(16px);
+$input-btn-padding-y: rem(14px);
+
+$input-border-radius: $rounded-pill-input;
 
 // Typography
-$h1-font-size: rem(60px);
-$h2-font-size: rem(48px);
-$h3-font-size: rem(40px);
-$h4-font-size: rem(32px);
-$h5-font-size: rem(18px);
-
-$intro-1-font-size: rem(40px);
-$intro-2-font-size: rem(24px);
-
-$headings-color: $deep-blue-1;
-$headings-font-weight: 700;
+$h1-font-size: rem(44px);
+$h2-font-size: rem(36px);
+$h3-font-size: rem(22px);
 

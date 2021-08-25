@@ -1,14 +1,22 @@
 .hero-bg {
   background: url('../img/hero.jpg') no-repeat center top;
   background-size: cover;
-  background-color: $blueDarkBG;
-  height: 85vh;
+  background-color: $bg-primary;
+  min-height: 85vh;
+
+  @include media-breakpoint-down(md) {
+    min-height: 100vh;
+  }
 
   .logo {
     margin-bottom: 80px;
 
+    @include media-breakpoint-down(md) {
+      margin-bottom: 40px;
+    }
+
     &__img {
-      width: 180px;
+      width: 160px;
       height: auto;
       fill: $white;
     }

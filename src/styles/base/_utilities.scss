@@ -3,19 +3,19 @@
 // Contextual colors
 .text {
   &-primary {
-    color: $deep-blue-1 $imp;
+    color: $blue $imp;
   }
 
-  &-turquoise {
-    color: $turquoise $imp;
+  &-blue-dark {
+    color: $blue-3 $imp;
   }
 
   &-grey {
-    color: $grey-blue-dark $imp;
+    color: $grey-dark $imp;
   }
 
   &-grey-dark {
-    color: $grey-dark;
+    color: $blue-2;
   }
 }
 

@@ -24,3 +24,24 @@ body {
   }
 }
 
+// Titles
+.title-hero {
+  color: $white;
+  font-size: $h1-font-size;
+  font-weight: 400;
+}
+.title-section-blue {
+  color: $blue;
+  font-size: $h2-font-size;
+  font-weight: 600;
+}
+.title-card-blue {
+  color: $blue-2;
+  font-size: $h3-font-size;
+  font-weight: 500;
+}
+
+// Utils
+.error-msg {
+  color: $red;
+}

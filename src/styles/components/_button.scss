@@ -1,1 +1,91 @@
-// ...
+// Button variants
+//
+// Easily pump out default styles, as well as :hover, :focus, :active,
+// and disabled options for all buttons
+/*button-variant($background, $border, $hover-background: darken($background, 7.5%), $hover-border: darken($border, 10%), $active-background: darken($background, 10%), $active-border: darken($border, 12.5%))*/
+.btn-primary, .btn-outline-primary {
+  font-weight: 400;
+  padding: rem(6px) rem(45px);
+  transition: .2s all ease $imp;
+}
+.btn-primary {
+  @include button-variant($green, $green, $green-dark, $green-dark, lighten($green, 10%), darken($green,30%));
+}
+
+.btn-outline-primary {
+  @include button-outline-variant($blue, #222222, lighten($blue,5%), $blue);
+}
+
+/*
+.btn {
+  display: inline-flex;
+  align-items: center;
+  font-weight: 300;
+  color: $white;
+  border: none;
+  border-radius: $rounded-pill;
+  box-shadow: none;
+  background-color: $green-dark;
+
+  &:focus,
+  &.focus {
+    color: $blue-2;
+  }
+
+  &.disabled,
+  &:disabled {
+    background: $grey-dark;
+    box-shadow: none;
+  }
+
+  &-primary {
+    background-color: $green;
+
+    &:hover {
+      background-color: $green-dark;
+    }
+
+    &:focus,
+    &.focus,
+    &:active,
+    &.active
+
+    {
+      color: $white;
+      background-color: $green-dark;
+      border-color: transparent;
+      box-shadow: none;
+    }
+
+    &:not(:disabled):not(.disabled):active,
+    &:not(:disabled):not(.disabled).active {
+      border-color: transparent;
+    }
+  }
+
+  &-secondary {
+    background-color: transparent;
+
+    &:hover {
+      border: $btn-border-width solid $blue;
+    }
+
+    &:focus,
+    &.focus {
+      border: $btn-border-width solid $blue;
+    }
+
+    &:not(:disabled):not(.disabled):active,
+    &:not(:disabled):not(.disabled).active {
+      background: $grey-dark;
+      border: $btn-border-width solid $blue;
+    }
+  }
+
+  &-icon {
+    margin-left: rem(16px);
+  }
+
+  transition: .2s all ease $imp;
+}
+*/
