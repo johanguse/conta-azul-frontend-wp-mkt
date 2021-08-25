@@ -40,7 +40,7 @@ if( $the_query->have_posts() ):
 			<div class="col-md-4 mb-5">
 				<div class="highlight-card text-center">
 					<div class="highlight-card__icon mb-2">
-						<img class="highlight-card__icon_svg" src="<?php echo esc_url( $icon_url ); ?>" />
+						<img class="highlight-card__icon_svg" loading="lazy" src="<?php echo esc_url( $icon_url ); ?>" />
 					</div>
 					<div class="highlight-card__title title-card-blue mb-3">
 						<?php echo the_field('highlight_title'); ?>

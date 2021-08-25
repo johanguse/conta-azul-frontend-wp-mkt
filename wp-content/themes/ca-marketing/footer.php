@@ -25,27 +25,27 @@ if ( ! defined( 'ABSPATH' ) ) {
 		<div class="social-media">
 			<ul class="footer-sm d-flex flex-row">
 				<li class="icon">
-					<a href="https://www.instagram.com/contaazul" class="social-link" target="_blank" rel="noopener" onclick="ga('send', 'event', 'Página de Eventos', 'Footer', 'Instagram')">
+					<a href="https://www.instagram.com/contaazul" loading="lazy" class="social-link" target="_blank" rel="noopener" onclick="ga('send', 'event', 'Página de Eventos', 'Footer', 'Instagram')">
 					<img class="social-link-icon ig" src="<?php echo ASSETS_THEME_URI; ?>/ig.svg" />
 					</a>
 				</li>
 				<li class="icon">
-					<a href="https://facebook.com/ContaAzul" class="social-link" target="_blank" rel="noopener" onclick="ga('send', 'event', 'Página de Eventos', 'Footer', 'Facebook')">
+					<a href="https://facebook.com/ContaAzul" loading="lazy" class="social-link" target="_blank" rel="noopener" onclick="ga('send', 'event', 'Página de Eventos', 'Footer', 'Facebook')">
 					<img class="social-link-icon fb" src="<?php echo ASSETS_THEME_URI; ?>/fb.svg" />
 					</a>
 				</li>
 				<li class="icon">
-					<a href="https://twitter.com/ContaAzul" class="social-link" target="_blank" rel="noopener" onclick="ga('send', 'event', 'Página de Eventos', 'Footer', 'Twitter')">
+					<a href="https://twitter.com/ContaAzul" loading="lazy" class="social-link" target="_blank" rel="noopener" onclick="ga('send', 'event', 'Página de Eventos', 'Footer', 'Twitter')">
 					<img class="social-link-icon twitter" src="<?php echo ASSETS_THEME_URI; ?>/twitter.svg" />
 					</a>
 				</li>
 				<li class="icon">
-					<a href="https://www.linkedin.com/company/contaazul" class="social-link" target="_blank" rel="noopener" onclick="ga('send', 'event', 'Página de Eventos', 'Footer', 'LinkedIn')">
+					<a href="https://www.linkedin.com/company/contaazul" loading="lazy" class="social-link" target="_blank" rel="noopener" onclick="ga('send', 'event', 'Página de Eventos', 'Footer', 'LinkedIn')">
 					<img class="social-link-icon in" src="<?php echo ASSETS_THEME_URI; ?>/in.svg" />
 					</a>
 				</li>
 				<li class="icon">
-					<a href="https://youtube.com/ContaAzulTV" class="social-link" target="_blank" rel="noopener" onclick="ga('send', 'event', 'Página de Eventos', 'Footer', 'Youtube')">
+					<a href="https://youtube.com/ContaAzulTV" loading="lazy" class="social-link" target="_blank" rel="noopener" onclick="ga('send', 'event', 'Página de Eventos', 'Footer', 'Youtube')">
 					<img class="social-link-icon youtube" src="<?php echo ASSETS_THEME_URI; ?>/youtube.svg" />
 					</a>
 				</li>
