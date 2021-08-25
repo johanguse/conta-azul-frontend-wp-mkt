@@ -1,11 +1,5 @@
 "use strict";
 
-/* eslint-disable no-unused-vars */
-
-/* eslint-disable no-undef */
-var $ = jQuery;
-"use strict";
-
 /* eslint-disable computed-property-spacing */
 
 /* eslint-disable no-undef */
@@ -60,6 +54,7 @@ var $ = jQuery;
           },
           success: function success(response) {
             if (response.status === "success") {
+              ga('send', 'event', 'Página de Eventos', 'Form', 'Cadastrado');
               NProgress.done();
               NProgress.remove();
               $(btn_submit).html("Me avise");
@@ -110,3 +105,9 @@ var $ = jQuery;
 
   $(init);
 })(jQuery);
+"use strict";
+
+/* eslint-disable no-unused-vars */
+
+/* eslint-disable no-undef */
+var $ = jQuery;

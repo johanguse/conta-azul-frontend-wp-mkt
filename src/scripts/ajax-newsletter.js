@@ -60,6 +60,8 @@
           },
           success: function success(response) {
             if (response.status === "success") {
+              ga('send', 'event', 'Página de Eventos', 'Form', 'Cadastrado');
+
               NProgress.done();
               NProgress.remove();
 
