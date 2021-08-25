@@ -1,0 +1,27 @@
+// Settings
+@import "settings/functions";
+@import "settings/variables";
+
+// Required from Bootstrap 4.6 Sass version
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+
+// Optional from BS
+@import "../node_modules/bootstrap/scss/reboot";
+@import "../node_modules/bootstrap/scss/grid";
+@import "../node_modules/bootstrap/scss/images";
+
+// Base
+@import "base/common";
+@import "base/typography";
+@import "base/utilities";
+
+// Components
+@import "components/button";
+@import "components/hero-banner";
+@import "components/highlight";
+@import "components/footer";
+
+// Pages
+@import "pages/home";

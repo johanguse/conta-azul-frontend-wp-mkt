@@ -1,0 +1,26 @@
+// Utilities
+
+// Contextual colors
+.text {
+  &-primary {
+    color: $deep-blue-1 $imp;
+  }
+
+  &-turquoise {
+    color: $turquoise $imp;
+  }
+
+  &-grey {
+    color: $grey-blue-dark $imp;
+  }
+
+  &-grey-dark {
+    color: $grey-dark;
+  }
+}
+
+.font-weight {
+  &-black {
+    font-weight: 900;
+  }
+}

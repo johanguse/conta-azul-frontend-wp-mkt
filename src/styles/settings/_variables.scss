@@ -1,0 +1,169 @@
+// Variables
+
+// Variables should follow the `$component-state-property-size` formula for
+// consistent naming. Ex: $nav-link-disabled-color and $modal-content-box-shadow-xs.
+
+// Use this file to override the Bootstrap variables with your own values
+
+// Open this one to see all available variables
+// node_modules/bootstrap/scss/_variables.scss
+
+// Fonts
+$font-family-base: "Roboto", sans-serif;
+$enable-responsive-font-sizes: true;
+
+// Colors
+$body-bg: #fff;
+$white: #fff;
+$blue: #2687e9;
+$blueDark: #4983bb;
+$blueDarkBG: #090f25;
+
+// Base colors
+$white: #fff;
+$black: #000;
+
+// Primary colors
+$deep-blue-1: #020242;
+$deep-blue-2: #05052d;
+$deep-blue-3: #00005b;
+
+// Secondary color
+$blue: #2687e9;
+$blue-2: #4983bb;
+$blue-3: #090f25;
+$green: #07dbb4;
+$green-2: #1ba39c;
+$red: #e93f66;
+$turquoise: #35e9d5;
+$turquoise-2: #03cfb9;
+
+// Neutral colors
+$grey-dark: #333;
+$grey-light: #d8d8d8;
+$grey-blue: #ebf2f2;
+$grey-beige: #f4f8e1;
+$grey-blue-dark: #799a9b;
+
+// Gradients
+$gradient-deep-blue: linear-gradient(0deg, $deep-blue-2 0%, $deep-blue-1 100%);
+$gradient-green-blue: linear-gradient(90deg, $green 0%, $blue 100%);
+$gradient-grey-blue-white: linear-gradient(0deg, $white 0%, $grey-blue 100%);
+$gradient-grey-beige-white: linear-gradient(0deg, $white 0%, $grey-beige 100%);
+$gradient-turquoise-white: linear-gradient(90deg, $turquoise 0%, $white 100%);
+$gradient-white-white: linear-gradient(90deg, $white 0%, $white 100%);
+$gradient-light-grey: linear-gradient(-180deg, $grey-blue 0%, $white 30%);
+
+// Text colors
+$text-primary: $deep-blue-1;
+$text-secondary: $grey-dark;
+$text-white: $white;
+$text-shadow: #117a8b;
+
+// Bachground Color
+$bg-primary: $deep-blue-1;
+
+// Anchor links
+$link-color: $green;
+$link-decoration: none;
+$link-hover-color: $deep-blue-1;
+$link-hover-decoration: none;
+
+// Overrides
+$imp: !important;
+
+// Spacing
+$spacer: 1rem;
+$spacers: ();
+$spacers: map-merge(
+  (
+    0: 0,
+    1: ($spacer * .25),
+    2: ($spacer * .5),
+    3: $spacer,
+    4: ($spacer * 1.5),
+    5: ($spacer * 2),
+    6: ($spacer * 2.5),
+    7: ($spacer * 3),
+    8: ($spacer * 3.5),
+    9: ($spacer * 4),
+    10: ($spacer * 4.5),
+    11: ($spacer * 5),
+    12: ($spacer * 6),
+    13: ($spacer * 7),
+  ),
+  $spacers
+);
+
+// Grid breakpoints
+$grid-breakpoints: (
+  xs: 0,
+  xm: rem(432px),
+  sm: rem(576px),
+  md: rem(768px),
+  lg: rem(992px),
+  xl: rem(1200px),
+);
+
+// Grid containers
+$container-max-widths: (
+  xm: rem(420px),
+  sm: rem(540px),
+  md: rem(720px),
+  lg: rem(960px),
+  xl: rem(1140px),
+);
+
+// Grid columns
+$grid-gutter-width: rem(30px);
+
+// Components
+$rounded-pill: 50rem;
+$border-radius-lg: rem(18px);
+
+// Buttons + Forms
+$border-width: 2px;
+
+// Buttons
+$btn-border-radius: $rounded-pill;
+
+$btn-padding-y: rem(12px);
+$btn-padding-x: rem(24px);
+$btn-font-size: rem(24px);
+
+$btn-padding-y-sm: rem(8px);
+$btn-padding-x-sm: rem(16px);
+$btn-font-size-sm: rem(20px);
+
+$btn-padding-y-lg: rem(16px);
+$btn-padding-x-lg: rem(32px);
+$btn-font-size-lg: rem(28px);
+
+// Forms
+$component-active-bg: $green-2;
+
+$input-bg: transparent;
+$input-color: $deep-blue-1;
+
+$input-border-color: $grey-blue;
+$input-box-shadow: none;
+
+$input-focus-border-color: $turquoise;
+$input-focus-box-shadow: none;
+
+$custom-control-label-color: $deep-blue-1;
+$custom-control-indicator-focus-border-color: $green-2;
+
+// Typography
+$h1-font-size: rem(60px);
+$h2-font-size: rem(48px);
+$h3-font-size: rem(40px);
+$h4-font-size: rem(32px);
+$h5-font-size: rem(18px);
+
+$intro-1-font-size: rem(40px);
+$intro-2-font-size: rem(24px);
+
+$headings-color: $deep-blue-1;
+$headings-font-weight: 700;
+

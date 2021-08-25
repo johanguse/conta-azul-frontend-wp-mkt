@@ -1,0 +1,16 @@
+.hero-bg {
+  background: url('../img/hero.jpg') no-repeat center top;
+  background-size: cover;
+  background-color: $blueDarkBG;
+  height: 85vh;
+
+  .logo {
+    margin-bottom: 80px;
+
+    &__img {
+      width: 180px;
+      height: auto;
+      fill: $white;
+    }
+  }
+}

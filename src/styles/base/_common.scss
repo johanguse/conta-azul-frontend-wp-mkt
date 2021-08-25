@@ -1,0 +1,26 @@
+/* stylelint-disable selector-no-qualifying-type */
+
+// Common styles
+html {
+  scroll-behavior: smooth;
+  font-size: 80%;
+}
+
+body {
+  overflow-x: hidden;
+  font-size: rem(20px);
+  background: $white;
+  -webkit-font-smoothing: antialiased $imp;
+  -moz-osx-font-smoothing: grayscale;
+
+  &.logged-in {
+    .navbar.fixed-top {
+      margin-top: 32px;
+
+      @media screen and (max-width: 799px) {
+        margin-top: 46px;
+      }
+    }
+  }
+}
+

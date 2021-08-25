@@ -1,0 +1,40 @@
+.footer {
+  .logo {
+    &__img {
+      width: 100px;
+      height: auto;
+      fill: $blue;
+    }
+  }
+
+  .social-media {
+    .footer-sm {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+
+      .social-link {
+        padding: 0 5px;
+        display: block;
+      }
+
+      .social-link-icon {
+        height: 20px;
+        width: auto;
+        padding: 0 3px;
+      }
+      .social-link-icon.ig {
+        height: 18px;
+      }
+      .social-link-icon.fb {
+        height: 22px;
+      }
+      .social-link-icon.in {
+        height: 23px;
+      }
+      .social-link-icon.youtube {
+        height: 25px;
+      }
+    }
+  }
+}

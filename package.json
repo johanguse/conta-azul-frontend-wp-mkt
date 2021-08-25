@@ -1,0 +1,24 @@
+{
+  "name": "ca-marketing",
+  "version": "1.0.0",
+  "description": "This is a base configuration for use in new WordPress websites, bootstraped with WPGulp.",
+  "main": "index.js",
+  "author": "Johan Guse <johanguse@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": ["src"],
+  "scripts": {
+    "start": "yarn workspace src start",
+    "images": "yarn workspace src images",
+    "styles": "yarn workspace src styles",
+    "styles:rtl": "yarn workspace src styles:rtl",
+    "scripts": "yarn workspace src scripts",
+    "scripts:vendors": "yarn workspace src scripts:vendor",
+    "zip": "yarn workspace src zip",
+    "translate": "yarn workspace src translate",
+    "cache-clear": "yarn workspace src cache-clear",
+    "eslint": "yarn workspace src eslint",
+    "stylelint": "yarn workspace src stylelint",
+    "lint": "yarn workspace src lint"
+  }
+}

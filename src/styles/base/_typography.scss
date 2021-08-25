@@ -1,0 +1,45 @@
+// Generate font sizes with breakpoints
+@each $breakpoint in map-keys($grid-breakpoints) {
+  @include media-breakpoint-up($breakpoint) {
+    $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+    .t#{$infix}-10 {
+      font-size: rem(10px) $imp;
+    }
+
+    .t#{$infix}-11 {
+      font-size: rem(11px) $imp;
+    }
+
+    .t#{$infix}-12 {
+      font-size: rem(12px) $imp;
+    }
+
+    .t#{$infix}-14 {
+      font-size: rem(14px) $imp;
+    }
+
+    .t#{$infix}-16 {
+      font-size: rem(16px) $imp;
+    }
+
+    .t#{$infix}-18 {
+      font-size: rem(18px) $imp;
+    }
+
+    .t#{$infix}-20 {
+      font-size: rem(20px) $imp;
+    }
+
+    .t#{$infix}-24 {
+      font-size: rem(24px) $imp;
+    }
+
+    .t#{$infix}-26 {
+      font-size: rem(26px) $imp;
+    }
+
+    .t#{$infix}-32 {
+      font-size: rem(32px) $imp;
+    }
+  }
+}

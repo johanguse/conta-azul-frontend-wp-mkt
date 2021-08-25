@@ -1,0 +1,9 @@
+// Receive 2 colors and generate a linear-gradient
+@function generate-gradient($color-1, $color-2) {
+  @return linear-gradient(to bottom right, $color-1, $color-2);
+}
+
+// Receive argument in pixel and return in rem
+@function rem($pixels, $font-size-base: 16px) {
+  @return $pixels / $font-size-base * 1rem;
+}
