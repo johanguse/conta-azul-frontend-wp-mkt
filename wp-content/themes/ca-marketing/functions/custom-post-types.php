@@ -89,7 +89,7 @@ function ca_export_newsletter() {
     <script type="text/javascript">
         jQuery(document).ready( function($)
         {
-            $('.tablenav.top .clear, .tablenav.bottom .clear').before('<form action="#" method="POST"><input type="hidden" id="mytheme_export_csv" name="mytheme_export_csv" value="1" /><input class="button button-primary user_export_button" style="margin-top:3px;" type="submit" value="<?php esc_attr_e('Exportar todos para CSV', 'protema');?>" /></form>');
+            $('.tablenav.top .clear, .tablenav.bottom .clear').before('<form action="#" method="POST"><input type="hidden" id="mytheme_export_csv" name="mytheme_export_csv" value="1" /><input class="button button-primary user_export_button" style="margin-top:3px;" type="submit" value="<?php esc_attr_e('Exportar todos para CSV', 'contaazul');?>" /></form>');
         });
     </script>
     <?php
@@ -105,7 +105,7 @@ function export_csv() {
         $csv_output = '';
 
 
-        if (current_user_can('manage_options')) {
+        if( current_user_can('editor') || current_user_can('administrator') ) {
             header('Content-Encoding: UTF-8');
             header('Content-type: text/csv; charset=UTF-8');
             header('Content-Disposition: attachment; filename="assinantes_ca_'.date('YmdH').'.csv"');
