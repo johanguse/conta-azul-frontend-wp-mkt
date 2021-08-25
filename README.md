@@ -2,6 +2,11 @@
 
 This is a base configuration for use in new WordPress websites, bootstraped with [WPGulp][wpgulp].
 
+### Wordpress Login
+[contaazul.test.app.br/wp-admin](https://contaazul.test.app.br/wp-admin/)<br>
+User: `jrguse`<br>
+Pass: `4lwLejcxJOwV7iB5icLnpkpt`
+
 ## Getting Started
 
 You need to have [Docker][docker], [NodeJS][nodejs] and [Yarn][yarn] installed on your machine to install the dependencies and run the project.
