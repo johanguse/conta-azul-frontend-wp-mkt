@@ -1,11 +1,5 @@
 "use strict";
 
-/* eslint-disable no-unused-vars */
-
-/* eslint-disable no-undef */
-var $ = jQuery;
-"use strict";
-
 /* eslint-disable computed-property-spacing */
 
 /* eslint-disable no-undef */
@@ -96,3 +90,9 @@ var $ = jQuery;
 
   $(init);
 })(jQuery);
+"use strict";
+
+/* eslint-disable no-unused-vars */
+
+/* eslint-disable no-undef */
+var $ = jQuery;
