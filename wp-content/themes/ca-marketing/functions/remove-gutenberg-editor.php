@@ -1,7 +1,7 @@
 <?php
 // Disable Gutenberg
 
-add_filter(‘use_block_editor_for_post’, ‘__return_false’, 10);
+add_filter('use_block_editor_for_post', '__return_false', 10);
 
 if (version_compare($GLOBALS['wp_version'], '5.0-beta', '>')) {
 	// WP > 5 beta
