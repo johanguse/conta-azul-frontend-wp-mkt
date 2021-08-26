@@ -19,7 +19,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 		</div>
 		<div class="copyright p-1 p-lg-0 order-2 order-lg-1">
 			<p class="t-14 mb-0">
-				&copy; <?php echo date( 'Y' ); ?> - Direitos Reservados - <a href="https://contaazul.com/termos/" target="_blank" class="text-primary" onclick="gtag('event', 'click', {'event_category' : 'Página de Eventos', 'event_label' : 'Click Termo de Uso'});>Termos de Uso</a> - <a href="https://contaazul.com/politica/" target="_blank" class="text-primary" onclick="gtag('event', 'click', {'event_category' : 'Página de Eventos', 'event_label' : 'Click Política de Privacidade'});">Política de Privacidade</a>
+				&copy; <?php echo date( 'Y' ); ?> - Direitos Reservados - <a href="https://contaazul.com/termos/" target="_blank" class="text-primary" onclick="gtag('event', 'click', {'event_category' : 'Página de Eventos', 'event_label' : 'Click Termo de Uso'});">Termos de Uso</a> - <a href="https://contaazul.com/politica/" target="_blank" class="text-primary" onclick="gtag('event', 'click', {'event_category' : 'Página de Eventos', 'event_label' : 'Click Política de Privacidade'});">Política de Privacidade</a>
 			</p>
 		</div>
 		<div class="social-media p-2 p-lg-0 order-1 order-lg-2">
