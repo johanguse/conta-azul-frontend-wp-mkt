@@ -23,7 +23,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 			</div>
 			<div class="hero-form">
 				<div class="hero-bg__title text-white mb-5">
-					<h1 class="title-hero mb-5">Um evento que vai mudar o mercado. <br/>
+					<h1 class="title-hero mb-5">Um evento que vai mudar o mercado. <br class="d-none d-lg-block" />
 					Seja o primeiro a saber de tudo.</h1>
 					<div class="col-lg-9 mx-auto">
 						<p class="px-lg-5 mx-lg-5">Para contadores de olho no futuro, a ContaAzul realiza um evento nacional sobre as oportunidades e tendências do mercado contábil.</p>
@@ -51,7 +51,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 					</div>
 				</div>
 				<div class="hero-share">
-					aaa
+					<div class="col-md-6">aa</div>
+					<div class="col-md-6">bbb</div>
 				</div>
 			</div>
 		</div>

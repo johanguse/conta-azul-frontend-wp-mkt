@@ -1,6 +1,10 @@
 .footer {
   margin-top: rem(60px);
 
+  @include media-breakpoint-down(md) {
+    margin-top: rem(20px);
+  }
+
   .logo {
     &__img {
       width: 100px;
