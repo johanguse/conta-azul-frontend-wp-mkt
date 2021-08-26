@@ -4,9 +4,6 @@
 	'use strict';
 
 
-
-  console.log("ini js");
-
 	//FORM SEND NEWSLETTER AJAX
 	var ca_ajax_newsletter = function() {
 
@@ -34,7 +31,6 @@
 
     submitHandler: function(form) {
 
-        console.log("ini submit");
 
         var news_name = $("#newsletterform #news_name").val();
         var news_email = $("#newsletterform #news_email").val();
@@ -76,7 +72,6 @@
               $(status).html("&nbsp;");
 
               $(hero).remove();
-              console.log(response);
 
               setTimeout(function(){
                 $(tnks).toggleClass("d-none")
@@ -93,15 +88,12 @@
               NProgress.remove();
               $(status).html("Erro, atualize a pagina para tentar novamente");
 
-              console.log(response);
             } else if (response.status === "nopost") {
-              console.log("nopost");
               $(btn_submit).attr("disabled", false);
               $(btn_submit).html("Me avise");
 
             }
 
-            console.log(response);
 
             $(status).html("&nbsp;");
             $(btn_submit).attr("disabled", false);
@@ -124,12 +116,10 @@
             $(btn_submit).attr("disabled", true);
             $(status).html("Erro, atualize a pagina para tentar novamente");
 
-            console.log(response);
           }
         })
           return false;
 
-          console.log('form enviado');
       }
     });
 
