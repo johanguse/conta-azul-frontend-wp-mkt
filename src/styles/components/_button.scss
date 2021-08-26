@@ -15,5 +15,5 @@
 .btn-outline-primary {
   @include button-variant(transparent, lighten($white, 10%), transparent, darken($white, 7.5%), lighten($white, 10%), darken($white,30%));
   border: 1px solid;
-  padding: rem(6px) rem(15px);
+  padding: rem(6px) rem(20px);
 }

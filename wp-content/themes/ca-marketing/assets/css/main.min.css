@@ -711,7 +711,7 @@ body.logged-in .navbar.fixed-top{margin-top:32px}
 .btn-primary.disabled,.btn-primary:disabled{color:#fff;background-color:#46bb51;border-color:#46bb51}
 .btn-primary:not(:disabled):not(.disabled):active,.btn-primary:not(:disabled):not(.disabled).active,.show>.btn-primary.dropdown-toggle{color:#212529;background-color:#6bc974;border-color:#1c4c20}
 .btn-primary:not(:disabled):not(.disabled):active:focus,.btn-primary:not(:disabled):not(.disabled).active:focus,.show>.btn-primary.dropdown-toggle:focus{-webkit-box-shadow:0 0 0 .2rem rgba(98,197,107,0.5);box-shadow:0 0 0 .2rem rgba(98,197,107,0.5)}
-.btn-outline-primary{color:#fff;background-color:transparent;border-color:white;border:1px solid;padding:.375rem .9375rem}
+.btn-outline-primary{color:#fff;background-color:transparent;border-color:white;border:1px solid;padding:.375rem 1.25rem}
 .btn-outline-primary:hover{color:#fff;background-color:transparent;border-color:#ececec}
 .btn-outline-primary:focus,.btn-outline-primary.focus{color:#fff;background-color:transparent;border-color:#ececec;-webkit-box-shadow:0 0 0 .2rem rgba(255,255,255,0.5);box-shadow:0 0 0 .2rem rgba(255,255,255,0.5)}
 .btn-outline-primary.disabled,.btn-outline-primary:disabled{color:#fff;background-color:transparent;border-color:white}
