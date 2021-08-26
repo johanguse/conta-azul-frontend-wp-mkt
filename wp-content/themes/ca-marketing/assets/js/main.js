@@ -55,6 +55,11 @@
           success: function success(response) {
             if (response.status === "success") {
               ga('send', 'event', 'Página de Eventos', 'Form', 'Cadastrado');
+              gtag('event', 'form_submit', {
+                'event_label': 'Página de Eventos',
+                'event_category': 'Cadastro Realizado',
+                'non_interaction': true
+              });
               NProgress.done();
               NProgress.remove();
               $(btn_submit).html("Me avise");
@@ -66,6 +71,11 @@
                 $(tnks).toggleClass("d-none");
               }, 200);
             } else if (response.status === "error") {
+              gtag('event', 'form_submit', {
+                'event_label': 'Página de Eventos',
+                'event_category': 'Erro Cadastro',
+                'non_interaction': true
+              });
               NProgress.done();
               NProgress.remove();
               $(status).html("Erro, atualize a pagina para tentar novamente");
@@ -84,6 +94,11 @@
             NProgress.remove();
           },
           error: function error(response) {
+            gtag('event', 'form_submit', {
+              'event_label': 'Página de Eventos',
+              'event_category': 'Erro Cadastro',
+              'non_interaction': true
+            });
             NProgress.done();
             NProgress.remove();
             $(btn_submit).html("Me avise");

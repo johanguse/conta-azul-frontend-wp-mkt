@@ -38,7 +38,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 							<input type="email" class="form-control" id="news_email" name="news_email" autocomplete="email" autocapitalize="off" autocorrect="off" spellcheck="false" placeholder="E-mail" aria-label="seu email" aria-required="true" required>
 						</div>
 						<div class="error-msg mb-2">&nbsp;</div>
-						<button type="submit" class="btn btn-primary frm-submit" onclick="ga('send', 'event', 'Página de Eventos', 'Form', 'Click Envio Cadastro')">Me avise</button>
+						<button type="submit" class="btn btn-primary frm-submit" onclick="gtag('event', 'click', {'event_category' : 'Página de Eventos', 'event_label' : 'Click Cadastro'});">Me avise</button>
 					</form>
 				</div>
 			</div>
