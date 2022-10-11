@@ -1,8 +1,8 @@
 # Teste para vaga Front-end Marketing - Conta Azul
 ## Website online
-[contaazul.test.app.br](https://contaazul.test.app.br/)
+[https://conta-azul-frontend-mkt.test.app.br/](https://https://conta-azul-frontend-mkt.test.app.br/)
 ### Wordpress Login
-[contaazul.test.app.br/wp-admin](https://contaazul.test.app.br/wp-admin/)<br>
+[https://conta-azul-frontend-mkt.test.app.br//wp-admin](https://https://conta-azul-frontend-mkt.test.app.br/wp-admin/)<br>
 User: `jrguse`<br>
 Pass: `4lwLejcxJOwV7iB5icLnpkpt`
 
