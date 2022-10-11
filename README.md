@@ -2,7 +2,7 @@
 ## Website online
 [https://conta-azul-frontend-mkt.test.app.br/](https://https://conta-azul-frontend-mkt.test.app.br/)
 ### Wordpress Login
-[https://conta-azul-frontend-mkt.test.app.br//wp-admin](https://https://conta-azul-frontend-mkt.test.app.br/wp-admin/)<br>
+[https://conta-azul-frontend-mkt.test.app.br/wp-admin](https://conta-azul-frontend-mkt.test.app.br/wp-admin/)<br>
 User: `jrguse`<br>
 Pass: `4lwLejcxJOwV7iB5icLnpkpt`
 
